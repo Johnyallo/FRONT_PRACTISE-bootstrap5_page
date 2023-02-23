@@ -1,0 +1,71 @@
+/* body {
+    height: 100%;
+    width: 100%;
+    
+} */
+.container {
+    background: url(../img/notes.png);
+    font-size: 26px;
+    font-family: Calibri;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 100px 750px 100px;
+    grid-template-areas: "header header header header"
+    "photo exception exception exception"
+    "footer footer footer footer";
+    border: 5px solid black;
+    
+}
+ .item {
+    display: grid;
+} 
+.item-a {
+    grid-area: header;
+    justify-content: center; 
+    align-items: center;
+}
+.item-b {
+    grid-area: photo;
+    justify-content: center;
+    /* align-items: center; */
+    background: #fff;
+}
+.item-c {
+    grid-area: exception;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 20px;
+    font-size: 30px;
+    background: #fff;
+    color: #212121;
+}
+.item-d {
+    grid-area: footer;
+    justify-content: center;
+     align-items: center; 
+}
+/* .photos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 30px;
+}
+#photo1 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#photo2 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+} */
+img {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 140px;
+}

@@ -1,0 +1,151 @@
+:root {
+    --color1: #8a1c23;
+    --color2: #1f191a;
+    --color3: #240d08;
+}
+
+header, footer, .who {
+    background: url(../img/notes.png);
+    background-size: cover;
+}
+header, section {
+    padding: 100px 0;
+}
+footer {
+    padding: 50px 0;
+}
+
+/*about*/
+.about h2 {
+    padding: 50px 0;
+}
+.about h5 {
+    color: var(--color3);
+    font-size: 20px;
+    cursor: pointer;
+}
+.about h5:hover, a:hover {
+    color: var(--color1);
+}
+#link1:hover {
+    color: var(--color1);
+}
+/* .about h5:hover {
+    color: var(--color1);
+    font-size: 22px;
+} */
+.circle {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 3px solid var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    cursor: pointer;
+}
+  .circle:hover {
+     background: var(--color1);
+}   
+i {
+    font-size: 25px;
+    color: var(--color2);
+}
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+    margin: 15px auto 30px;
+}
+
+/*who*/
+
+.whose h5 {
+    font-size: 26px;
+    border: 2px solid white;
+    padding: 20px 0;
+    cursor: pointer;
+}
+#whoreads1:hover {
+    background: var(--color1);
+
+}
+#whoreads2:hover {
+    background: var(--color1);
+
+}
+#whoreads3:hover {
+    background: var(--color1);
+
+}
+#whoreads4:hover {
+    background: var(--color1);
+
+}
+
+/*accordion*/
+.accordion h5 {
+    font-size: 32px;
+}
+.accordion-button {
+    font-size: 24px;
+}
+.rednote, .orangenote, .yellownote, .greennote, .bluenote {
+    background: #fff;
+}
+
+.bluenote:hover, .greennote:hover, .yellownote:hover, .rednote:hover, .orangenote:hover {
+    background: #8a1c23;
+    color: #fff;
+}
+.plot:hover, .notes:hover, .quotes:hover, .amount:hover, .authors:hover {
+    background-color: var(--color1);
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #212121;
+    background: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    Section {
+        padding: 50px 0;
+    }
+}
+
+/*whodouble*/
+.whodouble {
+    display: none;
+    padding: 30px 0;
+    background: url(../img/notes.png);
+    background-size: cover;
+}
+.whodoubles h5 {
+    font-size: 26px;
+    /* padding: 20px 0; */
+}
+#backwho {
+    cursor: pointer;
+    border: 2px;
+    margin-bottom: -36px;
+    margin-top: 40px; 
+}
+
+#link3 {
+    color: black;
+}
+#link3:hover {
+    color: var(--color1);
+}
+.image {
+    width: 20%;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spanner {
+    
+}
